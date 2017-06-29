@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Switch
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Plan to Visit"
+            android:id="@+id/planToVisitSW"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:checked="false"
+            android:layout_alignBottom="@+id/VisitedSW"
+            android:layout_alignParentStart="true"
+            android:layout_toStartOf="@+id/SaveDetailsB"
+            android:layout_alignEnd="@+id/ratingBar" />
+
+        <Switch
+            android:layout_width="385dp"
+            android:layout_height="wrap_content"
+            android:text="Visited"
+            android:id="@+id/VisitedSW"
+            android:layout_gravity="right"
+            android:checked="false"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="33dp"
+            android:layout_below="@+id/descTV"
+            android:layout_toEndOf="@+id/planToVisitSW" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textMultiLine"
+            android:ems="10"
+            android:id="@+id/notesET"
+            android:layout_marginRight="10dp"
+            android:layout_below="@+id/VTimeET"
+            android:layout_alignStart="@+id/VTimeET" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Notes"
+            android:id="@+id/textView7"
+            android:layout_marginLeft="10dp"
+            android:layout_alignBottom="@+id/notesET"
+            android:layout_alignParentStart="true" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="date"
+            android:ems="10"
+            android:id="@+id/PDateET"
+            android:layout_marginRight="10dp"
+            android:layout_below="@+id/VisitedSW"
+            android:layout_alignStart="@+id/PTimeET" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="time"
+            android:ems="10"
+            android:id="@+id/PTimeET"
+            android:layout_marginRight="10dp"
+            android:layout_below="@+id/PDateET"
+            android:layout_toEndOf="@+id/textView9" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Planned Date"
+            android:id="@+id/textView8"
+            android:layout_above="@+id/PTimeET"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Planned Time"
+            android:id="@+id/textView9"
+            android:layout_alignBottom="@+id/PTimeET"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Visited Date"
+            android:id="@+id/textView"
+            android:layout_marginLeft="10dp"
+            android:layout_above="@+id/VTimeET"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Visited Time"
+            android:id="@+id/vTimeET"
+            android:layout_marginLeft="10dp"
+            android:layout_alignBottom="@+id/VTimeET"
+            android:layout_alignParentStart="true" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="date"
+            android:ems="10"
+            android:id="@+id/VdateET"
+            android:layout_marginRight="10dp"
+            android:layout_below="@+id/PTimeET"
+            android:layout_toEndOf="@+id/textView9" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="time"
+            android:ems="10"
+            android:id="@+id/VTimeET"
+            android:layout_marginRight="10dp"
+            android:layout_below="@+id/VdateET"
+            android:layout_alignStart="@+id/VdateET" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Large Text"
+            android:id="@+id/PlaceNameTV"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Save Details"
+            android:id="@+id/SaveDetailsB"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Small Text"
+            android:id="@+id/descTV"
+            android:layout_below="@+id/geolocTV"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="geoloc"
+            android:id="@+id/geolocTV"
+            android:layout_below="@+id/ratingBar"
+            android:layout_alignParentStart="true" />
+
+        <RatingBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ratingBar"
+            android:rating="2"
+            android:numStars="5"
+            android:stepSize="1"
+            android:layout_below="@+id/PlaceNameTV"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="1.00"
+            android:id="@+id/priceTV"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="£"
+            android:id="@+id/curSymbol"
+            android:layout_alignTop="@+id/priceTV"
+            android:layout_toStartOf="@+id/priceTV" />
+
+    </RelativeLayout>
+
+</LinearLayout>

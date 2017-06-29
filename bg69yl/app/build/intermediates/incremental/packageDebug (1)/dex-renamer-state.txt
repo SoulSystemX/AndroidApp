@@ -1,0 +1,4 @@
+#Tue Dec 27 11:56:12 GMT 2016
+base.0=D\:\\Google Drive (SoulSystemX)\\University\\Year 3\\Mobile\\Assignment\\App\\bg69yl\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main
+renamed.0=classes.dex
+file.0=D\:\\Google Drive (SoulSystemX)\\University\\Year 3\\Mobile\\Assignment\\App\\bg69yl\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main\\classes.dex

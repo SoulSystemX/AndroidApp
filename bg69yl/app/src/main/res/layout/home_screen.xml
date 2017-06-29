@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".HomeScreen"
+    android:background="@color/background_material_dark">
+
+    <ImageButton
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton"
+        android:src="@drawable/button01"
+        android:layout_alignParentEnd="false"
+        android:backgroundTint="#00ffffff" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton3"
+        android:layout_alignParentStart="true"
+        android:src="@drawable/button03"
+        android:layout_below="@+id/imageButton"
+        android:backgroundTint="#00ffffff" />
+
+    <ImageView
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:id="@+id/condIconIV"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@+id/imageButton" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/cityTextTV"
+        android:textColor="#ffffff"
+        android:layout_alignTop="@+id/condIconIV"
+        android:layout_toEndOf="@+id/condIconIV"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/condDescTV"
+        android:textColor="#ffffff"
+        android:layout_alignBottom="@+id/condIconIV"
+        android:layout_toEndOf="@+id/condIconIV"
+        android:layout_marginLeft="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tempTV"
+        android:textColor="#ffffff"
+        android:layout_marginLeft="20dp"
+        android:layout_alignTop="@+id/condDescTV"
+        android:layout_toEndOf="@+id/condDescTV" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Discover Tokyo!"
+        android:id="@+id/textView10"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_margin="20dp"
+        android:textColor="#fdfdfe" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Current Weather"
+        android:id="@+id/textView11"
+        android:textColor="#fdfdfe"
+        android:layout_alignTop="@+id/condIconIV"
+        android:layout_alignStart="@+id/cityTextTV" />
+
+</RelativeLayout>

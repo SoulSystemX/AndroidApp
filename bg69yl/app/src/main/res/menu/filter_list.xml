@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.cet325.bg69yl.HomeScreen">
+
+    <item android:id="@+id/Sort"
+        android:title="@string/display"
+        android:icon="@android:drawable/ic_menu_sort_by_size"
+        app:showAsAction="always">
+
+        <menu>
+            <item
+                android:id="@+id/All"
+                android:title="@string/All" />
+
+            <item
+                android:id="@+id/Favourite"
+                android:orderInCategory="100"
+                android:title="@string/Favourite"
+                app:showAsAction="never" />
+
+            <item
+                android:id="@+id/Planned"
+                android:orderInCategory="100"
+                android:title="@string/Planned"
+                app:showAsAction="never" />
+
+            <item
+                android:id="@+id/Visited"
+                android:orderInCategory="100"
+                android:title="@string/Visited"
+                app:showAsAction="never" />
+        </menu>
+
+    </item>
+
+    <item android:id="@+id/Display"
+        android:title="@string/display"
+        android:icon="@android:drawable/ic_menu_view"
+        app:showAsAction="always">
+
+        <menu>
+            <item
+                android:id="@+id/DispAll"
+                android:title="@string/All" />
+
+            <item
+                android:id="@+id/DispFavourite"
+                android:orderInCategory="100"
+                android:title="@string/Favourite"
+                app:showAsAction="never" />
+
+            <item
+                android:id="@+id/DispPlanned"
+                android:orderInCategory="100"
+                android:title="@string/Planned"
+                app:showAsAction="never" />
+
+            <item
+                android:id="@+id/DispVisited"
+                android:orderInCategory="100"
+                android:title="@string/Visited"
+                app:showAsAction="never" />
+
+        </menu>
+
+
+    </item>
+
+</menu>

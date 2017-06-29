@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Discover Tokyo!</string>
+
+    <string name="Sort">Sort</string>
+    <string name="All">All</string>
+    <string name="Favourite">Favourite</string>
+    <string name="Planned">Planned</string>
+    <string name="Visited">Visited</string>
+
+
+    <string name="GBP">GBP</string>
+    <string name="YEN">YEN</string>
+    <string name="EUR">EUR</string>
+
+    <string name="display">Display</string>
+    <string name="dispAll">All</string>
+    <string name="dispFavourite">Favourite</string>
+    <string name="dispPlanned">Planned</string>
+    <string name="dispVisited">Visited</string>
+
+
+</resources>

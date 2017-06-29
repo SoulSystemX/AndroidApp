@@ -1,0 +1,9 @@
+#Internal package file, do not edit.
+#Thu Jan 12 22:58:01 GMT 2017
+1.file=D\:\\Google Drive (SoulSystemX)\\University\\Year 3\\Mobile\\Assignment\\App\\bg69yl\\app\\build\\intermediates\\transforms\\dex\\androidTest\\debug\\folders\\1000\\1f\\main\\classes.dex
+1.set=DEX
+0.file=D\:\\Google Drive (SoulSystemX)\\University\\Year 3\\Mobile\\Assignment\\App\\bg69yl\\app\\build\\intermediates\\res\\resources-debug-androidTest.ap_\\AndroidManifest.xml
+1.base=D\:\\Google Drive (SoulSystemX)\\University\\Year 3\\Mobile\\Assignment\\App\\bg69yl\\app\\build\\intermediates\\transforms\\dex\\androidTest\\debug\\folders\\1000\\1f\\main
+0.base=D\:\\Google Drive (SoulSystemX)\\University\\Year 3\\Mobile\\Assignment\\App\\bg69yl\\app\\build\\intermediates\\res\\resources-debug-androidTest.ap_
+0.set=ANDROID_RESOURCE
+count=2

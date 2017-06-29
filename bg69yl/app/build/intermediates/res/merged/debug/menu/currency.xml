@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.cet325.bg69yl.HomeScreen">
+
+    <item
+        android:id="@+id/GBP"
+        android:orderInCategory="100"
+        android:title="@string/GBP"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/YEN"
+        android:orderInCategory="100"
+        android:title="@string/YEN"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/EUR"
+        android:orderInCategory="100"
+        android:title="@string/EUR"
+        app:showAsAction="never" />
+
+</menu>
